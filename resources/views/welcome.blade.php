@@ -85,13 +85,13 @@
                 </div>
 
                 <div class="links">
-                    <a href="https://laravel.com/docs">Docs</a>
-                    <a href="https://laracasts.com">Laracasts</a>
-                    <a href="https://laravel-news.com">News</a>
-                    <a href="https://blog.laravel.com">Blog</a>
-                    <a href="https://nova.laravel.com">Nova</a>
-                    <a href="https://forge.laravel.com">Forge</a>
-                    <a href="https://github.com/laravel/laravel">GitHub</a>
+                    <a href="{{url('/post')}}"> 🥇 first post   </a>
+                    <a href="{{url('/post-category-name')}}">  🥇 first post category name</a>
+                    <a href="{{url('/post-category')}}">  🥇 first post category</a>
+                    <a href="{{url('/category')}}">  🥇 first category </a>
+                    <a href="{{url('/category-all')}}"> 🥇 category all </a>
+                    <a href="{{url('/category-first-post')}}"> 🥇 category first post </a>
+                    <a href="{{url('/category-first-post-title')}}"> 🥇 category first post name</a>
                 </div>
             </div>
         </div>
